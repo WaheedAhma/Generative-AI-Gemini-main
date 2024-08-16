@@ -32,7 +32,7 @@ def get_vector_store(text_chunks):
 
 def get_conversational_chain():
     prompt_template = """
-    If the user input looks in Boycotted Products List, the output will show  for this brand that it is in the boycotted list.Also Give me yes or no on starting of response \n\n
+    write text here \n\n
     Context:\n {context}?\n
     Question: \n{question}\n
 
